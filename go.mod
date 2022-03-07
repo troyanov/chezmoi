@@ -21,6 +21,7 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
 	github.com/huandu/xstrings v1.3.2 // indirect
+	github.com/invopop/jsonschema v0.3.0 // indirect
 	github.com/kevinburke/ssh_config v1.1.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.18 // indirect
