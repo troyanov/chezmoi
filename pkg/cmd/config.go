@@ -89,6 +89,7 @@ type ConfigFile struct {
 
 	// Password manager configurations.
 	Bitwarden   bitwardenConfig   `mapstructure:"bitwarden"`
+	CharmKV     charmKVConfig     `mapstructure:"charmkv"`
 	Gopass      gopassConfig      `mapstructure:"gopass"`
 	Keepassxc   keepassxcConfig   `mapstructure:"keepassxc"`
 	Lastpass    lastpassConfig    `mapstructure:"lastpass"`
@@ -425,6 +426,7 @@ func newConfig(options ...configOption) (*Config, error) {
 		"bitwarden":                c.bitwardenTemplateFunc,
 		"bitwardenAttachment":      c.bitwardenAttachmentTemplateFunc,
 		"bitwardenFields":          c.bitwardenFieldsTemplateFunc,
+		"charmKV":                  c.charmKVTemplateFunc,
 		"decrypt":                  c.decryptTemplateFunc,
 		"encrypt":                  c.encryptTemplateFunc,
 		"fromYaml":                 c.fromYamlTemplateFunc,

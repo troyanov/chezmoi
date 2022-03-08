@@ -9,6 +9,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20220113124808-70ae35bab23f // indirect
 	github.com/bmatcuk/doublestar/v4 v4.0.2
 	github.com/bradenhilton/mozillainstallhash v1.0.0
+	github.com/charmbracelet/charm v0.10.3 // indirect
 	github.com/charmbracelet/glamour v0.5.0
 	github.com/coreos/go-semver v0.3.0
 	github.com/danieljoos/wincred v1.1.2 // indirect
@@ -27,7 +28,6 @@ require (
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.3
 	github.com/muesli/combinator v0.3.0
-	github.com/muesli/termenv v0.11.0 // indirect
 	github.com/pelletier/go-toml v1.9.4
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/rogpeppe/go-internal v1.8.1
